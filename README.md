@@ -11,9 +11,12 @@ The goal was to gain hands-on experience with radar fundamentals, more specifica
   
 # Circuit implementation
 The circuit radar utilized an voltage controlled oscillator driven by a modulator chip to generate continuous wave and FMCW signals. A custom video amplifier circuit was built to condition receive signals.
+![Circuit overall](https://github.com/GiandomenicoPanettieri/Build-Your-Own-Radar-System-Project/assets/57620194/03967a01-5e8d-4ce9-b239-fee25021f8dd)
 
 # Software Defined Radar
 The SDR was implemented using a USRP B205mini and GNU Radio. Block diagrams were developed for continuous wave and low-IF CW modes for both range and velocity measurement.
+![immagine_2023-10-27_142351985](https://github.com/GiandomenicoPanettieri/Build-Your-Own-Radar-System-Project/assets/57620194/6f2e410c-7060-4c8b-8c85-1a124a53ba95)
+
 
 # Signal Processing
 All the matlab codes are implemented for:
@@ -29,3 +32,5 @@ Both systems were tested and able to capture:
 * Single/multiple target range and velocity
 * Landscape imaging
 * Physiological signals like breathing and heart rate
+![BreathingMarko](https://github.com/GiandomenicoPanettieri/Build-Your-Own-Radar-System-Project/assets/57620194/4d9abf06-1376-441d-b69f-89d60db97f06)
+
